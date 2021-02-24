@@ -1,0 +1,154 @@
+\documentclass{mducng_cv}
+
+\setname{DUC}{Manh Nguyen Ph.D.}
+\setaddress{Yongin-si/Korea}
+\setmobile{+82-10-6617-1811}
+\setmail{nguyenmanhduc18@gmail.com}
+\setlinkedinaccount{https://www.linkedin.com/in/ducmanhnguyen} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/manhduc1811/} %you can play with color of the template (red is also nice..)
+\setthemecolor{blue} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\section{Tasks in G2touch}{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \datedexperience{SW Active pen signal simulation} {}
+     \explanationdetail{\coloredbullet\ % 
+     Active pen-Touch screen communication protocol specification.}
+     \explanationdetail{\coloredbullet\ % 
+     Scenarios simulation for active pen signal in MATLAB.}  
+     \explanationdetail{\coloredbullet\ % 
+     Main clock based simulation for active pen signal in Verilog HDL.}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \datedexperience{FPGA/Embedded - Active pen supported touchscreen controller: Evaluation board} {}
+     \explanationdetail{\coloredbullet\ % 
+     EVB setup: FPGA Altera D10-standard, extra MCU(Andes D10 core), and STM32F401 board.}
+     \explanationdetail{\coloredbullet\ % 
+     Capacitance sensing sensor design, MUX controller with STM32F429ZI, NUCLEO-L552ZE.}  
+     \explanationdetail{\coloredbullet\ % 
+     ADC ADS5271 with IP cores LVDS bus, SPI bus controller interface.}  
+     \explanationdetail{\coloredbullet\ % 
+     SRAM memory, FIFO memory controller.} 
+     \explanationdetail{\coloredbullet\ % 
+     verify the method to detect and synchronize active pen signal.} 
+     \explanationdetail{\coloredbullet\ % 
+     verify the method to reconstruct and process raw signal of Active pen using DSP algorithms.} 
+     \explanationdetail{\coloredbullet\ % 
+     verify the method to distinguish the Tip Pressure from 256 levels.} 
+     \explanationdetail{\coloredbullet\ % 
+     verify the method to separate/ extract tip/tilt information for each symbol.} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \datedexperience{ASIC - Active pen supported touchscreen controller: Beacon detection module} {}
+     \explanationdetail{\coloredbullet\ % 
+    Matched filter specification for detection module.}
+     \explanationdetail{\coloredbullet\ % 
+    Measured, simulated, designed the reference beacon symbol.}
+     \explanationdetail{\coloredbullet\ % 
+    Convolution product module between Ref. Beacon and active pen raw signal.}
+     \explanationdetail{\coloredbullet\ % 
+    Peaks detector module to determine begin and end time of each active pen frame.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \datedexperience{ASIC - Active pen supported touchscreen controller: FSK demodulation module} {}
+     \explanationdetail{\coloredbullet\ % 
+    Measured, simulated, designed the reference bit symbols.}
+     \explanationdetail{\coloredbullet\ % 
+    LPF, BPF, HPF, sampling down filters designs and simulation in MATLAB.}
+     \explanationdetail{\coloredbullet\ % 
+    Implementation of those filters in Verilog HDL.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \datedexperience{ASIC/SW - Active pen supported touchscreen controller: Fast Fourier transform} {}
+     \explanationdetail{\coloredbullet\ % 
+    MATLAB-FFT based analyzer of active pen signal for simulation, testing, design.}
+     \explanationdetail{\coloredbullet\ % 
+    FFT algorithm analysis: Radix-2 butterfly algorithm, single-path delay-feedback processor.}
+     \explanationdetail{\coloredbullet\ % 
+    Implemented those FFT module in Gcc for many length Nfft.}
+     \explanationdetail{\coloredbullet\ % 
+    Implemented those FFT module in Verilog HDL for many length Nfft.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \datedexperience{Patent submission (under review)} {}
+     \explanationdetail{\coloredbullet\ % 
+    Entitle: "Means and method for decoding active pen signal".}
+     \explanationdetail{\coloredbullet\ % 
+    The matched filter module is to detect the beacon symbol and synchronize between active pen and touch controller.}
+     \explanationdetail{\coloredbullet\ % 
+    Then, the de-modulator modules such as FSK or FFT are used for each type of symbols.}
+}
+%
+%Education
+\section{Results in University of Ulsan} {
+    \datedexperience{Researches on quantum error correction codes} {}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Minimal-Entanglement Entanglement-Assisted Quantum Error Correction Codes from Modified Circulant Matrices}. Symmetry. 9(7) pp(122) (7/2017). (SCIE, Q2, IF(1.457)) \url{https://doi.org/10.3390/sym9070122} }
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Quantum stabilizer codes construction from Hermitian self-orthogonal codes over GF(4)}. Journal of Communications and Networks. 20(3) pp(309-315) (6/2018). (SCIE, Q2, IF(1.252)) \url{https://doi.org/10.1109/JCN.2018.000043}}  
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{New Constructions of Quantum Stabilizer Codes Based on Difference Sets}. Symmetry. 10(11) pp(655) (11/2018). (SCIE, Q2, IF(1.256)) \url{https://doi.org/10.3390/sym10110655}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{New construction of binary and non-binary quantum stabilizer codes based on symmetric matrices}. International Journal of Modern Physics B, 33(24), 1950274, 2019. (SCI, Q4, IF(0.863)) \url{https://doi.org/10.1142/S0217979219502746}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Quantum Stabilizer Codes Based on a New Construction of Self-orthogonal Trace-inner Product Codes over $GF(4)$}. International Journal of Modern Physics B, 34 (5), 2050017, 2019. (SCI, Q4, IF(0.863)) \url{https://doi.org/10.1142/S0217979220500174}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{A novel construction for quantum stabilizer codes based on binary formalism}. International Journal of Modern Physics B, 34 (8), 2050059, 2020. (SCI, Q4, IF(0.863)) \url{https://doi.org/10.1142/S0217979220500599}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Construction and complement circuit of a quantum stabilizer code with length 7}. in Proceedings of Eighth International Conference on Ubiquitous and Future Networks (ICUFN), Wien, Austria. pp(332-336) (7/2016). \url{https://doi.org/10.1109/ICUFN.2016.7537043} }     
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Construction of quantum stabilizer codes from self-orthogonal linear codes}. in Proceedings of Symposium of the Korean Institute of communications and Information Sciences. pp(248-249) (6/2018).	\url{http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07512514} }
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Application of additive codes over GF(4) on quantum error correction codes}. in chapter of: Frontiers in Intelligent Computing: Theory and Applications pp 116-122. (01/2020). \url{https://doi.org/10.1007/978-981-32-9186-7_13}}
+    \datedexperience{Researches on quantum algorithms} {}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Quantum Key Distribution Protocol Based on Modified Generalization of Deutsch-Jozsa Algorithm in d-level Quantum System}. International Journal of Theoretical Physics, 58(1) Jan. 2019. (SCIE, Q3, IF(1.121)) \url{https://doi.org/10.1007/s10773-018-3910-4}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{Multi-Bits Transfer Based on the Quantum Three-Stage Protocol with Quantum Error Correction Codes}. International Journal of Theoretical Physics, 58(6) Apr. 2019. (SCIE, Q3, IF(1.121)) \url{https://doi.org/10.1007/s10773-019-04098-4}}  
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{The fog on: Generalized teleportation by means of discrete-time quantum walks on N -lines and N -cycles}. Modern Physics Letters B. 33(23), 1950270, Aug. 2019. (SCI, Q4, IF(0.731)) \url{https://doi.org/10.1142/S0217984919502701}}
+     \explanationdetail{\coloredbullet\ M.Zidan, A. Abdel-Aty, \textbf{D.M. Nguyen}, S. Hegazy, Y. Al-Sbou, H. Eleuch and M. Abdel-Aty,  \textit{A Quantum Algorithm based on Entanglement Measure for Classifying Boolean Multivariate Function into Novel Hidden Classes}. Results in Physics, 15, 102549, 2019. (SCIE, Q1, IF(3.02)) \url{https://doi.org/10.1016/j.rinp.2019.102549}}   
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{A Novel Quantum No-Key Protocol for Many Bits Transfer with Error Correction Codes}. Advances in Science, Technology and Engineering Systems 5 (2), 781-785, 2020. (Scopus) \url{10.25046/aj050298}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{A Study on a Quantum Three Pass Protocol for Multiple Bits Transfer}. in Proceedings of Symposium of the Korean Institute of communications and Information Sciences. (6/2019).	\url{http://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09234961}}
+     \explanationdetail{\coloredbullet\ \textbf{D.M. Nguyen}, S. Kim. \textit{A quantum three pass protocol with phase estimation for many bits transfer}. in Proceedings of International Conference on Advanced Technologies for Communications (ATC 2019, Ha-Noi, Viet-Nam). (10/2019). \url{10.1109/ATC.2019.8924514}}
+     \datedexperience{IoT project} {}
+     \explanationdetail{\coloredbullet\ Design the location estimation algorithm for Indoor position and navigation. }
+     \explanationdetail{\coloredbullet\ Implemented in embedded system with Arduino Nano board and using external devices such as HM-10, and LCD I2C.}
+}
+%
+% Experience
+\section{Project in ANSV}{
+    \datedexperience{Maintain and extend the Billing system for VMS} {}
+     \explanationdetail{\coloredbullet\ The call flow, SIGTRAN/ SS7 signaling system in a telecommunication system.}
+     \explanationdetail{\coloredbullet\ Unix Shell script, awk/sed, Pearl programming for installing, debugging, upgrading the Oracle database, ICC platform, ICC services system.}  
+     \explanationdetail{\coloredbullet\ Installed and deployed Server, Sun Storage, Solaris, Unix operating system.}  
+}
+%
+% Skills
+\section{Project in SVMC}{
+    \datedexperience{Android mobile project} {}
+     \explanationdetail{\coloredbullet\ maintained Android setting/CSC app for upgraded version of Android OS.}
+     \explanationdetail{\coloredbullet\ developed, tested, handled of Android software project for Samsung mobile phone in South East Asia markets.}
+}
+%
+% Experience
+\section{Assignment in PRDCV}{
+    \datedexperience{Panasonic eCockpit automotive system} {}
+     \explanationdetail{\coloredbullet\ simulated a Hachune 3D model by using object rendering engines of Orge 3D and Irrlicht engine.}
+     \explanationdetail{\coloredbullet\  investigated their performance and selected a suitable 3D engine for e-Cockpit project.}
+}
+% Experience
+\section{Additional works}{
+    \datedexperience{Teaching assistant} {}
+     \explanationdetail{\coloredbullet\ DSP class for undergraduate student, school of electrical engineering, University of Ulsan, 2018, 2019.}
+    \datedexperience{Paper reviewers, Conference committee} {}
+     \explanationdetail{\coloredbullet\ IEEE Communication letter. IEEE Access. International journal of Modern Physical B. Indian Journal of Physics. Modern Physical letter B. Symmetry. Photonics. SN Computer science.}
+     \explanationdetail{\coloredbullet\  INFOCOMP 2019, 2020, 2021. ICTCC and ICCASA 2019, 2020, 2021.}
+    \datedexperience{Book co-author} {}
+     \explanationdetail{\coloredbullet\ "Role of Technology in the Sustainable development of Smart Cities". Chapter of Flexible communications technologies. (plan: 2021)}
+     \explanationdetail{\coloredbullet\  "Basic Digital Systems: MATLAB design and Verilog HDL implementation." (plan: 2022)}
+    \datedexperience{Co-researcher} {}
+     \explanationdetail{\coloredbullet\ Binh A. Nguyen, Viet Q. Tran, Khoa D. Ta, Manh Hoang, Thien V. Truong, Nhan D. Nguyen, \textbf{D.M. Nguyen}, \textit{Simulation of Quantum Computation via MAGMA Computational Algebra System}. Int. J. of Advanced Trends in Computer Science and Engineering, 9 (2), 1757-1761, 2020. (Scopus) \url{https://doi.org/10.30534/ijatcse/2020/130922020}}
+     \explanationdetail{\coloredbullet\  Binh A. Nguyen, Viet Q. Tran, Khoa D. Ta, Manh Hoang, Thien V. Truong, Nhan D. Nguyen, \textbf{D.M. Nguyen}, \textit{A Novel Framework for Simulation of Quantum Information System}. Int. J. of Advanced Trends in Computer Science and Engineering, 9 (2), 1752-1756, 2020. (Scopus) \url{https://doi.org/10.30534/ijatcse/2020/129922020}}
+     \explanationdetail{\coloredbullet\ GN Pham, BA Nguyen, VQ Tran, KD Ta, PH Nguyen, \textbf{D.M. Nguyen}, \textit{Simulation of Resources for Quantum Algorithms and Quantum Communication Protocols based on a Novel Framework}. Int. J. of Advanced Trends in Computer Science and Engineering, 9 (3), 3125-3129, 2020. (Scopus) \url{https://doi.org/10.30534/ijatcse/2020/97932020}}
+     \explanationdetail{\coloredbullet\  Hieu V. Dang, Tung V. Nguyen, Manh Hoang, Viet Q. Tran, Nhan D. Nguyen and \textbf{D.M. Nguyen}, \textit{Design and verification of novel classical error control codes using VERILOG Hardware Description Language}. Int. J. of Advanced Trends in Computer Science and Engineering, 9 (4), 2020. (Scopus) \url{https://doi.org/10.30534/ijatcse/2020/232942020}}
+     \explanationdetail{\coloredbullet\ Phuong H. Lai, Manh Hoang, Viet Q. Tran, Tung V. Nguyen, Thien V. Truong, Phong H. Nguyen and \textbf{D.M. Nguyen}, \textit{Analysis and implementation of SDF Radix-2 FFT processor using VERILOG Hardware Description Language}. Int. J. of Advanced Trends in Computer Science and Engineering, 9 (4), 2020. (Scopus) \url{https://doi.org/10.30534/ijatcse/2020/144942020}}
+     \explanationdetail{\coloredbullet\ Phuong H. Lai, Manh Hoang, Viet Q. Tran, Tung V. Nguyen, Thien V. Truong, Phong H. Nguyen and \textbf{D.M. Nguyen}, \textit{Pipelined Digital Filters and Their Applications: FDATOOL Design and VERILOG HDL Verification}. International Journal of Emerging Trends in Engineering Research, 8 (9), 2020. (Scopus) \url{https://doi.org/10.30534/ijeter/2020/44892020}}
+     \explanationdetail{\coloredbullet\ Phuong H. Lai, Manh Hoang, Viet Q. Tran, Tung V. Nguyen, Thien V. Truong, Phong H. Nguyen and \textbf{D.M. Nguyen}, \textit{Mixed-signal generator module:Design and Verification in MATLAB and Verilog hardware description language}. International Journal of Emerging Trends in Engineering Research, 8 (9), 2020. (Scopus) \url{https://doi.org/10.30534/ijeter/2020/28892020}}
+     \explanationdetail{\coloredbullet\ Phuong H. Lai, Manh Hoang, Viet Q. Tran, Tung V. Nguyen, Thien V. Truong, Phong H. Nguyen and \textbf{D.M. Nguyen}, \textit{Signal generator module based on CORDIC algorithm: Design, implementation, and verification using MATLAB and Verilog HDL}. Int. J. of Advanced Trends in Computer Science and Engineering, 9 (5), 2020. (Scopus) \url{https://doi.org/10.30534/ijatcse/2020/258952020}}
+}
+%
+%Footnote
+\createfootnote
+\end{document}

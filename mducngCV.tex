@@ -1,0 +1,95 @@
+\documentclass{mducng_cv}
+
+\setname{DUC}{Manh Nguyen Ph.D.}
+\setaddress{Yongin-si/Korea}
+\setmobile{+82-10-6617-1811}
+\setmail{nguyenmanhduc18@gmail.com}
+\setlinkedinaccount{https://www.linkedin.com/in/ducmanhnguyen} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/manhduc1811/} %you can play with color of the template (red is also nice..)
+\setthemecolor{blue} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Summary}{%
+    \newcommand{\extraone}{I was born in Hai Duong, Viet Nam in November, 1989. I got my Ph.D. from University of Ulsan in Feb. 2020.}
+    \newcommand{\extratwo}{Solid programming skill and simulation experience in MATLAB/Octave, C/C++, Python.}
+    \newcommand{\extrathree}{Solid RTL coding experience in Verilog HDL, solid digital system design experience in ASIC/ FPGA.}
+    \newcommand{\extrafour}{Solid understanding about the digital signal, image, audio processing algorithms.}
+    \newcommand{\extrafive}{Strong background in mathematical such as: Coding theory, Abstract algebra, Linear system, transformation.}
+    \newcommand{\extrasix}{My current interests: ASIC, Active pen protocol, Touchscreen system, FPGA for DL/AI/ML.}
+    \newcommand{\listofextras}{\extraone, \extratwo, \extrathree, \extrafour, \extrafive, \extrasix}
+    \createbullets{\listofextras}
+}
+%
+%Education
+\section{Education} 
+    \datedexperience{University of Ulsan-UOU}{02/2015-02/2020 / Korea} 
+    \explanation{Ph.D. in Electrical Engineering} 
+     \explanationdetail{\coloredbullet\ % 
+     Researcher assistant at Coding and Information theory lab.
+     }
+    \datedexperience{Hanoi University of Science and Technology-HUST}{09/2007-06/2012 / Vietnam} 
+    \explanation{B.S in electronics and telecommunication} 
+     \explanationdetail{\coloredbullet\ % 
+     Image processing, GSM system.
+     }
+%
+% Experience
+\section{Experience}
+    %
+    \datedexperience{G2touch}{03/2020-now / Korea} 
+    \explanation{Researcher and engineer} 
+    \explanationdetail{\coloredbullet\ %
+    Digital system design of active pen supported touchscreen controller IC.
+     }    
+    %
+    \datedexperience{Advanced Network System Vietnam}{6/2014-2/2015 / Vietnam} 
+    \explanation{Network system engineer} 
+    \explanationdetail{\coloredbullet\ %
+     maintain and deploy Charging services for VMS-Mobifone.
+     }
+    %
+    \datedexperience{Samsung Electronic Vietnam}{9/2012-5/2014 / Vietnam} 
+    \explanation{Mobile software Developer} 
+    \explanationdetail{\coloredbullet\ %
+     Customer adaptive modification of android smart-phone models.
+     }
+    %
+    \datedexperience{Panasonic R-D center}{1/2012-3/2012 / Vietnam} 
+    \explanation{Internship Student} 
+    \explanationdetail{\coloredbullet\ %
+    3D-Graphic Software developer.
+     }
+%
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Programming }{\textbf{\emph{Experienced:}} \ \  Verilog HDL \cpshalf MATLAB \ \ \textbf{\emph{Familiar:}} \ \  C \cpshalf Cpp \cpshalf Shell \cpshalf Python \cpshalf Java}}
+    %
+    \newcommand{\skilltwo}{\createskill{IC Development}{ASIC RTL coding/ verification \cpshalf VLSI front end \cpshalf SoC \cpshalf IP cores \cpshalf Digital system design \cpshalf DSP}}
+    %
+    \newcommand{\skillthree}{\createskill{Embedded}{Altera D10-standard \cpshalf Andes D10 core  \cpshalf STM32F401 \cpshalf ADS5271  \cpshalf Arduino-UNO}}
+    %
+    \newcommand{\skillfour}{\createskill{Frameworks/Libraries}{ Orge 3D \cpshalf Open GL\cpshalf Open CV \cpshalf Android SDK  \cpshalf Anaconda \cpshalf Jupyter \cpshalf Matplotplib \cpshalf Numpy}}
+    %
+    \newcommand{\skillfive}{\createskill{Languages}{\textbf{\emph{Native:}} \ \  Vietnamese \ \ \textbf{\emph{Fluent:}} \ \ English \ \ \textbf{\emph{Intermediate:}} \ \  Korean }}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+%
+% Experience, 
+\section{Extra}
+    \newcommand{\extraone}{My life is around transformation: Hadamard, Hilbert in university and digital filters, Fourier in company.}
+    \newcommand{\extratwo}{I like bolero, folk songs, and crazy about football. I dream a lot and work hard to make it come true.}
+    \newcommand{\extrathree}{}    \newcommand{\listofextras}{\extraone, \extratwo}
+    \createbullets{\listofextras}
+%
+%Footnote
+\createfootnote
+\end{document}
