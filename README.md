@@ -6,7 +6,7 @@ On-cell/In-cell active pen supported touchscreen controller for large screen dev
 
 ASIC/ FPGA
 
-Active pen supported touchscreen controller - Evaluation board verification 
+FPGA/Embedded - Active pen supported touchscreen controller: Evaluation board verification 
 - EVB setup: FPGA Altera D10-standard, extra MCU(Andes D10 core), and STM32F401 board.
 - Capacitance sensing sensor design, MUX controller with STM32F429ZI, NUCLEO-L552ZE. 
 - ADC ADS5271 with IP cores LVDS bus, SPI bus controller interface
