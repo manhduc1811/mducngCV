@@ -2,7 +2,7 @@
 
 https://www.overleaf.com/project/5ff42973812625c230bac28b
 
-Current interests: digital VLSI system, MATLAB HDL coder, 
+Current interests: digital VLSI system, MATLAB HDL coder, ML/DL/AI system design
 
 On-cell/In-cell active pen supported touchscreen controller for large screen device.
 
